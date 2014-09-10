@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-size: 100%;
+}
+
+p{
+  margin: 0;
+}
+
+.listingItem {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container {
+  display: inline-block;
+  overflow: hidden;
+
+  width: 220px;
+  height: 220px;
+
+  margin: 0 10px 30px 10px;
+
+  box-shadow: 0 3px #eaeaea;
+  -webkit box-shadow: 0 3px #eaeaea;
+}
+
+.container a {
+  text-decoration: none;
+  font-family: "Raleway", "Helvetica", "sans-serif";
+  font-weight: 700;
+  font-size: .8em;
+  color: #343638;
+}
+
+.imgContainer {
+  width: 200px;
+  overflow: hidden;
+  margin: 5px;
+}
+
+.itemImg {
+  width: 170px;
+  display: block;
+  margin: 0 auto;
+}
+
+.itemTitle {
+  display: inline-block;
+  height: 16px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.itemTitle p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 5px;
+}
+
+.shopPrice {
+  display: block;
+}
+
+.itemShop {
+  display: inline-block;
+  margin-left: 5px;
+  vertical-align: middle;
+  width: 100px;
+  overflow: hidden;
+
+  color: #a9a9a9;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.itemShop a {
+  font-family: "Raleway", "Helvetica", "sans-serif";
+  font-weight: 300;
+  font-size: 0.7em;
+  color: #a9a9a9;
+  letter-spacing: 0.5px;
+}
+
+.itemPrice {
+  display: inline-block;
+  position: relative;
+  left: 20%;
+
+  font-family: "Raleway", "Helvetica", "sans-serif";
+  font-weight: 300;
+  font-size: 0.7em;
+  color: #3ac31f;
+
+  margin-right: 5px;
+  margin-top: 1px;
+}
